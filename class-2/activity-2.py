@@ -1,7 +1,7 @@
 import turtle 
 
 turtle.Screen().bgcolor("orange")
-board = turtle.turtle()
+board = turtle.Turtle()
 
 board.forward(100)
 board.left(120)
@@ -17,9 +17,9 @@ board.forward(50)
 board.pendown()
 board.right(90)
 board.forward(100)
-board.left(120)
+board.right(120)
 board.forward(100)
-board.left(120)
+board.right(120)
 board.forward(100)
 
-board.done()
+turtle.done()
