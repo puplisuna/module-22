@@ -1,0 +1,11 @@
+Num = int(input("Enter a number"))
+num = int(input("Enter a number to add to your previous one "))
+print("The sum of the two numbers is: ", Num + num)
+print("The first number is: ", Num)
+print("The second number is: ", num)
+
+lum = int(input("enter a number"))
+kum = int(input("enter a number to multiply to your previous one "))
+print("The product of the two numbers is: ", lum * kum)
+print("The first number is: ", lum)
+print("The second number is: ", kum)
